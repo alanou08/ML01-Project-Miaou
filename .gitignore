@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environments and IDE files
+.venv/
+venv/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Raw data and generated artifacts
+data/raw/*
+data/processed/*
+models/*
+reports/*
+
+# Keep the editable metadata template
+!data/metadata.csv
