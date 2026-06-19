@@ -1,0 +1,3 @@
+model_name,selection_metric,best_cv_macro_f1,test_accuracy,test_balanced_accuracy,test_precision_macro,test_recall_macro,test_f1_macro,test_f1_weighted,best_parameters
+Random Forest,grouped_cv_macro_f1,0.5382581871362697,0.6091954022988506,0.5185516464586232,0.5102212602212602,0.5185516464586232,0.49666543072549746,0.5833018381428493,"{'max_depth': None, 'max_features': 'sqrt', 'min_samples_leaf': 1}"
+RBF SVM,grouped_cv_macro_f1,0.5148530071387555,0.632183908045977,0.5549592526336713,0.5441315441315441,0.5549592526336712,0.5383164012264096,0.6208785484038523,"{'classifier__C': 1.0, 'classifier__gamma': 'scale'}"

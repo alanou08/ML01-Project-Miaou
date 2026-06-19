@@ -1,0 +1,20 @@
+Selected model: Random Forest
+
+Aggregate metrics:
+- accuracy: 0.6092
+- balanced_accuracy: 0.5186
+- precision_macro: 0.5102
+- recall_macro: 0.5186
+- f1_macro: 0.4967
+- f1_weighted: 0.5833
+
+Classification report:
+                  precision    recall  f1-score   support
+
+Waiting for food     0.2857    0.1111    0.1600        18
+       Isolation     0.7727    0.7907    0.7816        43
+        Brushing     0.4722    0.6538    0.5484        26
+
+        accuracy                         0.6092        87
+       macro avg     0.5102    0.5186    0.4967        87
+    weighted avg     0.5822    0.6092    0.5833        87
